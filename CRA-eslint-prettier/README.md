@@ -54,4 +54,4 @@ npm 使用:
 npm install --save-dev eslint-plugin-prettier prettier eslint-config-react-app eslint-plugin-import eslint-plugin-react eslint-plugin-flowtype eslint-plugin-jsx-a11y eslint-plugin-react-hooks
 ```
 
-> [yarn](https://yarnpkg.com/) 需要額外安裝
+> 註: [yarn](https://yarnpkg.com/) 需要額外安裝，Yarn 是 Facebook 提供的替代 npm 的工具，可以加速 node 模組的下載。
