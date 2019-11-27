@@ -1,4 +1,4 @@
-# # Visual Studio Code 中的 CRA 專案 ESLint 與 Prettier 設定方式(TypeScript)
+# Visual Studio Code 中的 CRA 專案 ESLint 與 Prettier 設定方式(TypeScript)
 
 - 註: [CRA 3.0 已經內附ESLint與 TS linting 支援](https://github.com/facebook/create-react-app/issues/6475)
 - 註: 以下 Create-React-App 簡稱為 CRA
@@ -7,12 +7,12 @@
 
 <!-- TOC -->
 
-- [# Visual Studio Code 中的 CRA 專案 ESLint 與 Prettier 設定方式(TypeScript)](#-visual-studio-code-中的-cra-專案-eslint-與-prettier-設定方式typescript)
+- [Visual Studio Code 中的 CRA 專案 ESLint 與 Prettier 設定方式(TypeScript)](#visual-studio-code-中的-cra-專案-eslint-與-prettier-設定方式typescript)
   - [CRA專案部份](#cra專案部份)
     - [第 1 步: 建立專案](#第-1-步-建立專案)
     - [第 2 步: 安裝 ESLint 與 Prettier 模組](#第-2-步-安裝-eslint-與-prettier-模組)
   - [第 3 步: 加入 eslint 與 prettier 設定檔案](#第-3-步-加入-eslint-與-prettier-設定檔案)
-  - [VS Code 工具部份](#vs-code-工具部份)
+  - [VS Code 開發工具部份](#vs-code-開發工具部份)
     - [第 1 步: 安裝 VS Code 中的 ESLint 與 Prettier 擴充](#第-1-步-安裝-vs-code-中的-eslint-與-prettier-擴充)
   - [第 2 步: 更新 VS Code 設定](#第-2-步-更新-vs-code-設定)
     - [第 3 步: ESLint於VS Code中的相關設定](#第-3-步-eslint於vs-code中的相關設定)
