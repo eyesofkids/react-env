@@ -1,5 +1,7 @@
 # Visual Studio Code 中的 Gatsby 專案 ESLint 與 Prettier 設定方式
 
+ref: [https://www.gatsbyjs.org/docs/eslint/](https://www.gatsbyjs.org/docs/eslint/)
+
 ## 專案部份
 
 ### 第 1 步: 建立新的專案
@@ -28,6 +30,8 @@ npm install --save-dev eslint-plugin-prettier prettier eslint-config-react-app e
 ### 第 3 步: 加入 eslint 與 prettier 設定檔案
 
 下載 `.eslintrc.js` 與 `.prettierrc` 與 `.eslintignore` 的設定檔，拷貝到專案的根目錄。
+
+註: `.prettierrc` 目前gatsby有內建檔案，蓋掉原本的。
 
 ---
 
