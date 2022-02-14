@@ -5,27 +5,13 @@
 - 註: 以下 Visual Studio Code 簡稱為 VS Code
 - 註: [yarn](https://yarnpkg.com/) 需要額外安裝，Yarn 是 Facebook 提供的替代 npm 的工具，可以加速 node 模組的下載，推薦使用。
 
-<!-- TOC -->
-
-- [Visual Studio Code 中的 CRA 專案 ESLint 與 Prettier 設定方式(TypeScript)](#visual-studio-code-中的-cra-專案-eslint-與-prettier-設定方式typescript)
-  - [CRA專案部份](#cra專案部份)
-    - [第 1 步: 建立專案](#第-1-步-建立專案)
-    - [第 2 步: 安裝 ESLint 與 Prettier 模組](#第-2-步-安裝-eslint-與-prettier-模組)
-  - [第 3 步: 加入 eslint 與 prettier 設定檔案](#第-3-步-加入-eslint-與-prettier-設定檔案)
-  - [VS Code 開發工具部份](#vs-code-開發工具部份)
-    - [第 1 步: 安裝 VS Code 中的 ESLint 與 Prettier 擴充](#第-1-步-安裝-vs-code-中的-eslint-與-prettier-擴充)
-  - [第 2 步: 更新 VS Code 設定](#第-2-步-更新-vs-code-設定)
-    - [第 3 步: ESLint於VS Code中的相關設定](#第-3-步-eslint於vs-code中的相關設定)
-  - [參考資料](#參考資料)
-
-<!-- /TOC -->
 
 ## CRA專案部份
 
 ### 第 1 步: 建立專案
 
 ```sh
-npx create-react-app my-app --typescript
+npx create-react-app my-app --template typescript
 ```
 
 或
@@ -34,7 +20,9 @@ npx create-react-app my-app --typescript
 yarn create react-app my-app --typescript
 ```
 
-> 註: 也可以從現有的專案安裝 typescript 支援的相關模組，請參考 [CRA 官方網站 - Adding TypeScript](https://create-react-app.dev/docs/adding-typescript/#docsNav)
+> 註: 全域的 create-react-app 工具程式已不支援，如有安裝請先移除
+
+> 註: 也可以從現有的專案安裝 typescript 支援的相關模組，請參考 [CRA 官方網站 - Adding TypeScript](https://create-react-app.dev/docs/adding-typescript/)
 
 ### 第 2 步: 安裝 ESLint 與 Prettier 模組
 
@@ -84,8 +72,8 @@ VS Code的`settings.json`檔案中加入以下的設定。
 "eslint.validate": [
     "javascript",
     "javascriptreact",
-    { "language": "typescript", "autoFix": true }
-    { "language": "typescriptreact", "autoFix": true }
+    "typescript",
+    "typescriptreact"
 ],
 ```
 

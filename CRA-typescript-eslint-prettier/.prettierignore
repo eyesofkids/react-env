@@ -1,2 +1,7 @@
-package-lock.json
-node_modules/
+**/node_modules
+**/dist
+**/package.json
+**/yarn.lock
+**/package-lock.json
+**/.eslintrc
+**/tsconfig.json
