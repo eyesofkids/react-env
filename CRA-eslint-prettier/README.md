@@ -4,7 +4,6 @@
 - 註: 以下 Visual Studio Code 簡稱為 VS Code
 - 註: [yarn](https://yarnpkg.com/) 需要額外安裝，Yarn 是 Facebook 提供的替代 npm 的工具，可以加速 node 模組的下載，推薦使用。
 
-
 ## CRA 專案部份
 
 ### 第 1 步: 建立新的專案
@@ -15,7 +14,7 @@ npx create-react-app my-app
 
 或 
  
- ```sh
+```sh
 yarn create react-app my-app
 ```
 
@@ -66,5 +65,3 @@ npm install --save-dev eslint-plugin-prettier prettier eslint-config-react-app e
         "source.fixAll.eslint": true
     }
 ```
-
-
