@@ -1,12 +1,11 @@
 # Visual Studio Code 中的 CRA 專案 ESLint 與 Prettier 設定方式(TypeScript)
 
-- 註: [CRA 3.0 已經內附ESLint與 TS linting 支援](https://github.com/facebook/create-react-app/issues/6475)
+- 註: [CRA 3.0 已經內附 ESLint 與 TS linting 支援](https://github.com/facebook/create-react-app/issues/6475)
 - 註: 以下 Create-React-App 簡稱為 CRA
 - 註: 以下 Visual Studio Code 簡稱為 VS Code
 - 註: [yarn](https://yarnpkg.com/) 需要額外安裝，Yarn 是 Facebook 提供的替代 npm 的工具，可以加速 node 模組的下載，推薦使用。
 
-
-## CRA專案部份
+## CRA 專案部份
 
 ### 第 1 步: 建立專案
 
@@ -17,7 +16,7 @@ npx create-react-app my-app --template typescript
 或
 
 ```sh
-yarn create react-app my-app --typescript
+yarn create react-app my-app --template typescript
 ```
 
 > 註: 全域的 create-react-app 工具程式已不支援，如有安裝請先移除
@@ -64,9 +63,9 @@ npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier es
   "files.autoSave": "afterDelay",
 ```
 
-### 第 3 步: ESLint於VS Code中的相關設定
+### 第 3 步: ESLint 於 VS Code 中的相關設定
 
-VS Code的`settings.json`檔案中加入以下的設定。
+VS Code 的`settings.json`檔案中加入以下的設定。
 
 ```json
 "eslint.validate": [
@@ -77,11 +76,9 @@ VS Code的`settings.json`檔案中加入以下的設定。
 ],
 ```
 
-> 註: 截至2019.11仍然需要這樣設定
+> 註: 截至 2019.11 仍然需要這樣設定
 
 ## 參考資料
 
 - [Adding TypeScript](https://create-react-app.dev/docs/adding-typescript/)
 - [Autofix lightbulb not shown in TypeScript](https://github.com/Microsoft/vscode-eslint/issues/609)
-
-
