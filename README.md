@@ -1,2 +1,2 @@
 # react-env
-Setting React dev env
+Setting React(CRA)/Others dev environment
