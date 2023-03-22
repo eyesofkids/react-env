@@ -22,9 +22,8 @@ yarn.lock
 package-lock.json
 
 .idea
-.vscode
 .temp
 files
 *.zip
 .DS_Store
-.DS_Store
+
