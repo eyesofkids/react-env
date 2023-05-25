@@ -1,4 +1,8 @@
-# Next.js
+# Next (for TS)
+
+for Next 13
+
+!!need to modify and verify with new 13(js)
 
 ## upgrade to latest
 
